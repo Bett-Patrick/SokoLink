@@ -1,161 +1,74 @@
 # 🛍️ SokoLink
 
-**SokoLink** is a web-based e-commerce platform focused on connecting buyers and sellers of second-hand furniture and household goods. The platform aims to provide a seamless browsing, buying, and selling experience while promoting sustainable living and affordable home solutions.
+**SokoLink** is a full-stack e-commerce platform focused on connecting buyers and sellers of **second-hand furniture and household goods**. The platform promotes **sustainability**, **affordability**, and **community commerce** by streamlining the online buying and selling process in Kenya and beyond.
+
+---
+
+## 🌟 Project Overview
+
+SokoLink solves the challenge of fragmented second-hand furniture marketplaces by providing:
+
+- A **modern, user-friendly platform** for browsing and listing used items.
+- **Secure communication and transactions** between buyers and sellers.
+- Future integration with **Ethereum smart contracts** for **trustless escrow payments**.
+
+This project reflects real-world software engineering practice by combining backend APIs, user authentication, payment processing, and frontend design into a cohesive, scalable product.
 
 ---
 
 ## 🚀 Features
 
-- 🔍 Browse all categories of furniture and second-hand goods
-- 🛒 Add items to cart and checkout
-- 📝 Seller profile and product listing
-- 🖼️ Image-based product showcase
-- 💬 Secure messaging between buyer and seller
-- 🔒 Escrow account system for safe and trusted transactions
-- 📖 Blog and informational content
-- 📱 Responsive UI/UX design
+- 🔍 Category-based item browsing  
+- 🛒 Add to cart & checkout experience  
+- 📝 Seller profile creation and product listing  
+- 🖼️ Image-rich product displays  
+- 💬 Secure buyer-seller messaging *(planned)*  
+- 🔒 Escrow-based transaction flow *(planned with Ethereum)*  
+- 📱 Fully responsive design for mobile and desktop  
+- 📖 Informational blog content for users  
 
 ---
 
-## 🧰 Tools Used & To Be Used
+## 🧰 Technologies & Tools
 
-### ✅ Currently Used
-- **Frontend**
-  - React.js
-  - Tailwind CSS
-  - React Router DOM
-  - React Icons
-- **Backend**
-  - Django (Python)
-- **Database**
-  - PostgreSQL
-- **Version Control**
-  - Git & GitHub
+### ✅ In Use
+| Area       | Tools/Frameworks |
+|------------|------------------|
+| **Frontend** | React.js, Tailwind CSS, React Router DOM, React Icons |
+| **Backend**  | Django (Python), Django REST Framework |
+| **Database** | PostgreSQL |
+| **Versioning** | Git & GitHub |
 
-### 🔜 Planned Tools & Integrations
-- **Authentication**
-  - Firebase Authentication or JWT-based auth
-- **Storage**
-  - Firebase Storage or Cloudinary for image uploads
-- **Real-time Messaging**
-  - Firebase Firestore or Socket.io
-- **Payments**
-  - Stripe, M-Pesa API, and Escrow Payment Gateway
-- **Smart Contracts**
-  - Ethereum-based escrow system for secure, trustless transactions
-- **Messaging System**
-  - Built-in secure messaging between buyers and sellers
-- **Admin Dashboard**
-  - Django Admin or custom React dashboard
-- **Testing**
-  - Jest / React Testing Library, Django Test Framework
-- **Deployment**
-  - Vercel / Netlify (Frontend)
-  - Railway / Heroku / VPS (Backend)
+### 🔜 Upcoming
+| Feature | Tool |
+|--------|------|
+| **Authentication** | Firebase Auth or JWT |
+| **Image Storage** | Firebase Storage / Cloudinary |
+| **Messaging** | Firestore / Socket.io |
+| **Payments** | Stripe, M-Pesa API |
+| **Smart Contracts** | Ethereum-based escrow system |
+| **Admin Panel** | Django Admin or custom dashboard |
+| **Testing** | Jest, Django Test Framework |
+| **Deployment** | Vercel / Netlify (Frontend), Railway / Heroku (Backend) |
 
 ---
 
 ## 🛠️ Tech Stack Summary
 
 ### Frontend
-- React.js
-- Tailwind CSS
-- React Router DOM
-- React Icons
+- React.js  
+- Tailwind CSS  
+- React Router DOM  
+- React Icons  
 
 ### Backend
-- Django (Python)
-- PostgreSQL
+- Django (Python)  
+- PostgreSQL  
 
 ### Blockchain (Planned)
-- Ethereum (Smart Contracts for Escrow)
+- Ethereum Smart Contracts for escrow payments
 
 ---
 
 ## 🧭 Project Structure
 
-```
-SokoLink/
-│
-├── frontend/
-│   ├── public/
-│   └── src/
-│       ├── Assets/
-│       ├── Components/
-│       ├── Pages/
-│       │   ├── Layout.js
-│       │   ├── Home.js
-│       │   ├── AboutUs.js
-│       │   ├── Blogs.js
-│       │   └── Cart.js
-│       ├── App.js
-│       └── index.css
-│
-├── backend/
-│   └── sokolink/
-│       ├── settings.py
-│       ├── urls.py
-│       └── apps/
-│           ├── users/
-│           ├── listings/
-│           └── payments/
-├── package.json
-└── README.md
-```
-
----
-
-## 📸 Screenshots
-
-*UI screenshots.*
-
----
-
-## 📦 Installation
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/yourusername/sokolink.git
-cd sokolink
-```
-
-2. Install frontend dependencies:
-
-```bash
-cd frontend
-npm install
-npm run dev
-```
-
-3. Setup backend:
-
-```bash
-cd ../backend
-pip install -r requirements.txt
-python manage.py runserver
-```
-
----
-
-## ✅ To Do
-
-- [ ] User authentication
-- [ ] Seller dashboard
-- [ ] Payment integration (Stripe / M-Pesa)
-- [ ] Ethereum escrow smart contract
-- [ ] Ratings & reviews
-- [ ] Secure messaging system
-- [ ] Admin panel
-
----
-
-## 👥 Contributors
-
-- [Your Name](https://github.com/Bett-Patrick) – Project Lead
-
----
-
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
